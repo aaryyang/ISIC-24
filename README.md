@@ -1,5 +1,3 @@
-Ensemble of 3 solutions.
-
 Goal
 Identify cancers among skin lesions cropped from 3D total body photographs.
 In this competition, you'll develop image-based algorithms to identify histologically confirmed skin cancer cases with single-lesion crops from 3D total body photos (TBP).
