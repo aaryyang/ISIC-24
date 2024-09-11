@@ -1,12 +1,14 @@
-Goal
-Identify cancers among skin lesions cropped from 3D total body photographs.
-In this competition, you'll develop image-based algorithms to identify histologically confirmed skin cancer cases with single-lesion crops from 3D total body photos (TBP).
+**About the code** 
+It was borrowed from Master "Vyacheslav Bolotin" involving data from competition itself and several datasets including tf_efficientnetv2_b0 isic 2024 cancer specific, ISIC 2024 Effnetb0 LB 0.151, ISIC 2024 ImageNet Gen 2 Output, ISIC 2024 LGBM+ImageNet (OOF Pred Train) Output, ISIC 2024 Multifold V2 (offsite train), ISIC 2024 Multifold V3 (offsite train), Imagenet .143LB from isic-2024-imagenet-model-a, ISIC 2024 - Skin Cancer Detection with 3D-TBP, ISIC 2024 Tabular Feature Generation, ISIC 2024 ImageNet / LR Ramp + Target Mods.
+
+**Goals**
+To identify cancers among skin lesions cropped from 3D total body photographs.
 The image quality resembles close-up smartphone photos, which are regularly submitted for telehealth purposes.
-Bbinary classification algorithm could be used in settings without access to specialized care and improve triage for early skin cancer detection.
+Binary classification algorithm could be used in settings without access to specialized care and improve triage for early skin cancer detection.
 
-Evaluation
+**Evaluation**
 Primary Scoring Metric
-Submissions are evaluated on partial area under the ROC curve (pAUC) above 80% true positive rate (TPR) for binary classification of malignant examples.
+Submissions were evaluated on partial area under the ROC curve (pAUC) above 80% true positive rate (TPR) for binary classification of malignant examples.
 
-Submission File
-For each image (isic_id) in the test set,we predict the probability (target) that the lesion is malignant.
+**Submission File**
+For each image (isic_id) in the test set,we predicted the probability (target) that the lesion is malignant.
