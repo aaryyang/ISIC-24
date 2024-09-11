@@ -15,3 +15,6 @@ For each image (isic_id) in the test set,we predicted the probability (target) t
 
 **Final Results:**
 The code mentioned has scored 0.185 in public leaderboard and 0.169[silver medal solution] in private leaderboard.
+
+**Learnings:**
+Learned various parameters of XGBoost,LightBoost and CatBoost.Also, on how noise plays a role in overfitting.
