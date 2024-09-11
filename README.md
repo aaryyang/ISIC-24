@@ -12,3 +12,6 @@ Submissions were evaluated on partial area under the ROC curve (pAUC) above 80% 
 
 **Submission File:**
 For each image (isic_id) in the test set,we predicted the probability (target) that the lesion is malignant.
+
+**Final Results:**
+The code mentioned has scored 0.185 in public leaderboard and 0.169[silver medal solution] in private leaderboard.
